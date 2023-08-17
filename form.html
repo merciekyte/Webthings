@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-EA compatibale" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lightman</title>
+    <link rel="stylesheet" href="http://localhost\webthings\index.css">
+</head>
+<h1>Lightman solutions</h1>
+
+         <a href="index.html">Home</a>
+         <a href="form.html">Contact Us</a>
+         <a href="about us.html">About Us</a>
+         <a href="ourservices.html">Our Services </a>
+
+         <a href="login.php">LOGIN </a>
+<h2>Survey Form</h2>
+<body>
+    
+    <form action="index.php" method="post" enctype="multipart/form-data"> 
+
+      <label for="title">Title</label>
+            
+      <label for="Mr">Mr</label>
+      <input type="radio" id="mr" value="mr" name="title"> 
+      <label for="mrs">Mrs</label>
+      <input type="radio" id="mrs" value="mrs" name="title">
+      <label for="phd">PhD</label>
+      <input type="radio" id="phd" value="phd" name="title"><br>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="typehere" minlength ="6" maxlength="15"required><br>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password"><br>
+        
+            <label for="e-mail">e-mail/:</label>
+            <input type="e-mail" id="e-mail"placeholder="typehere@gmail.com"><br>
+             
+            <label for="phone number">Phone Number:</label>
+            <input type="tel" id="phone number" placeholder="0123456"><br>
+            
+            <label for="bday">Date of Birth</label>
+            <input type=" date " id="date of birth" placeholder="dd/mm/yy"><br>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="e-mail"quantity mini="0"maxl="99"><br>
+
+            
+            <label for="payment">Payment</label>
+            <select id ="payment">
+              <option value="card">Card</option>
+              <option value="mpesa">Mpesa</option>
+              <option value="cash">Cash</option>
+            </select><br>
+
+           <label for="subscribe ">Subscribe</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label for="comment">Comment</label>
+            <textarea name="" id="comment" cols="20" rows="10"></textarea><br>
+
+            <label for="file ">File</label>
+            <input type="file" id="file" accept="image/png image/jpg"><br>
+
+            <input type="reset"><br>
+            <input type="submit">
+        
+         </form>
+</body>
+</html>

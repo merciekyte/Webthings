@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    text-align: center;
+    background-color: #7c7979;
+    color: white;
+    padding: 2em 0;
+    width: 100%;
+}
+main {
+    text-align: center;
+    padding: 2em;
+}
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 1em 0;
+    width: 100%;
+}
+
+header a {
+    margin: 0 10px; /* space links */
+    font-weight: bold; /* links bold */
+    text-decoration: none;
+    color: white;
+}
+
+header a[href="login.php"] {
+    margin-left: auto;
+}
